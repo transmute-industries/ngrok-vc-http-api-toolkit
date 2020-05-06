@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
+    "custom-vocab": "https://transmute.ngrok.io/data/custom-vocab.html#",
+    "customClaimProperty": "http://schema.org/description"
+  }
+}

@@ -1,0 +1,7 @@
+authtoken: TOKEN
+
+tunnels:
+  ngrok-vc-http-api-toolkit:
+    proto: http
+    hostname: transmute.ngrok.io
+    addr: 5000
