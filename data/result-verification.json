@@ -1,1 +1,1 @@
-{"checks":["proof"]}
+{"checks":[{"check":"proof","error":"proof validation error : decode new credential: check embedded proof: check linked data proof: ed25519: invalid signature"}]}

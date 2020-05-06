@@ -4,21 +4,21 @@
       "https://www.w3.org/2018/credentials/v1",
       "https://transmute.ngrok.io/data/custom-vocab.json"
     ],
-    "id": "http://example.gov/credentials/3732",
-    "type": ["VerifiableCredential", "CustomCredential"],
-    "issuer": "did:key:z6MkjRagNiMu91DduvCvgEsqLZDVzrJzFrwahc4tXLt9DoHd",
-    "issuanceDate": "2020-03-10T04:24:12.164Z",
     "credentialSubject": {
-      "id": "did:key:z6MkjRagNiMu91DduvCvgEsqLZDVzrJzFrwahc4tXLt9DoHd",
-      "customClaimProperty": "123"
+      "customClaimProperty": "123",
+      "id": "did:key:z6MkjRagNiMu91DduvCvgEsqLZDVzrJzFrwahc4tXLt9DoHd"
     },
+    "id": "http://example.gov/credentials/3732",
+    "issuanceDate": "2020-03-10T04:24:12.164Z",
+    "issuer": "did:trustbloc:testnet.trustbloc.dev:EiBtYHD1_ybxr9icxKxCWhOL7G1UoygLEJ2mXVznkrlBEA",
     "proof": {
-      "type": "Ed25519Signature2018",
-      "created": "2020-05-06T14:53:02Z",
-      "verificationMethod": "did:key:z6MkjRagNiMu91DduvCvgEsqLZDVzrJzFrwahc4tXLt9DoHd#z6MkjRagNiMu91DduvCvgEsqLZDVzrJzFrwahc4tXLt9DoHd",
+      "created": "2020-05-06T15:38:46.501318688Z",
+      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tyMmY_At5Pdw7lhkeouGuH1jxHKD_yzA-t-XQSTPeOvbM6yTWCsdIkYNAYaIbY-WLMPA6am96GYe2Jg_5_nkDw",
       "proofPurpose": "assertionMethod",
-      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BNeA0vJaWpM5uEFDDKh1foiLlORkPwZVHSCgCOQ5Nh20tIgVKF7OcdSg7lqpdA2nqwGd9WqbsjhMX530p_jLAA"
-    }
+      "type": "Ed25519Signature2018",
+      "verificationMethod": "did:trustbloc:testnet.trustbloc.dev:EiBtYHD1_ybxr9icxKxCWhOL7G1UoygLEJ2mXVznkrlBEA#IhhisIjDfhneDSa_7f3H"
+    },
+    "type": ["VerifiableCredential", "CustomCredential"]
   },
   "options": {
     "checks": ["proof"]
